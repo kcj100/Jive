@@ -46,8 +46,6 @@ public class BookController {
         return response;
     }
 
-    // Other methods...
-
     @DeleteMapping("/{bookId}")
     public ResponseEntity<?> deleteBookById(@PathVariable Long bookId) {
         LOGGER.info("Deleting book by ID: {}", bookId);
@@ -56,8 +54,6 @@ public class BookController {
         LOGGER.info("Book deleted successfully");
         return response;
     }
-
-    // Other methods...
 
     @GetMapping("/category/{categoryId}")
     public ResponseEntity<?> getAllBooksByCategoryId(@PathVariable Long categoryId) {
