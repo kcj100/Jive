@@ -1,0 +1,13 @@
+INSERT INTO category (category_name) VALUES ('Fiction');
+INSERT INTO category (category_name) VALUES ('Science Fiction');
+INSERT INTO category (category_name) VALUES ('Mystery');
+INSERT INTO category (category_name) VALUES ('Fantasy');
+
+INSERT INTO book (name, sku, description, price, image, stock, category_id) VALUES
+    ('The Great Novel', 'SKU001', 'An epic tale of adventure', 19.99, 'novel.jpg', 50, 1);
+INSERT INTO book (name, sku, description, price, image, stock, category_id) VALUES
+    ('Future Odyssey', 'SKU002', 'Explore the unknown in the future', 24.99, 'odyssey.jpg', 30, 2);
+INSERT INTO book (name, sku, description, price, image, stock, category_id) VALUES
+    ('Mysterious Secrets', 'SKU003', 'Uncover hidden mysteries', 14.99, 'mysteries.jpg', 40, 1);
+INSERT INTO book (name, sku, description, price, image, stock, category_id) VALUES
+    ('Fantasy Realm', 'SKU004', 'Journey into a magical world', 29.99, 'fantasy.jpg', 20, 3);
